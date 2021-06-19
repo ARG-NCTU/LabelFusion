@@ -16,10 +16,12 @@ This repo holds the code for LabelFusion.
 ====
 What Different
 ====
--  updated the dockerfile (support nivida-docker 2)
-Dockerfile refer to https://github.com/ianchen-tw/LabelFusion/blob/master/docker/labelfusion.dockerfile
--  Add Docker for control locobot
--  Add ros and realsense soon ...
+1. updated the dockerfile (support nivida-docker 2)
+	Dockerfile refer to https://github.com/ianchen-tw/LabelFusion/blob/master/docker/labelfusion.dockerfile
+
+2. Add Docker for control locobot
+
+3. Add ros and realsense soon ...
 
 
 ====
