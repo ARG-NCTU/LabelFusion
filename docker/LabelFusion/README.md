@@ -19,6 +19,7 @@ $ cd LabelFusion/docker/LabelFusion
 $ ./docker_run.sh /path of data
 ```
 
+---
 
 ### Director
 director : [using ianchen-tw / director](https://github.com/ianchen-tw/director) 

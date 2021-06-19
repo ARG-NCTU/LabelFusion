@@ -2,14 +2,6 @@
 LabelFusion
 ===========
 
-====
-What is Different
-1. updated the dockerfile (support nivida-docker 2)
-Dockerfile refer to https://github.com/ianchen-tw/LabelFusion/blob/master/docker/labelfusion.dockerfile
-2. Add Docker for control locobot
-3. Add ros and realsense soon ...
-
-====
 
 .. image:: docs/fusion_short.gif
 
@@ -19,6 +11,16 @@ This repo holds the code for LabelFusion.
 - paper: https://ieeexplore.ieee.org/abstract/document/8460950
 - arxiv preprint: https://arxiv.org/abs/1707.04796
 - video: https://www.youtube.com/watch?v=nc65CF1W9B0
+
+
+====
+What Different
+====
+-  updated the dockerfile (support nivida-docker 2)
+Dockerfile refer to https://github.com/ianchen-tw/LabelFusion/blob/master/docker/labelfusion.dockerfile
+-  Add Docker for control locobot
+-  Add ros and realsense soon ...
+
 
 ====
 Quick Links
