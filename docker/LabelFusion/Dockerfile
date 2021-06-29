@@ -21,11 +21,21 @@ RUN apt-get -o Acquire::ForceIPv4=true update && apt-get -yq dist-upgrade \
     lsb-release \
     build-essential \
     net-tools \
+    python-pip \
+    python-tk \
     software-properties-common \
     mesa-utils \
     python-vtk6 \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
+##################################### PIP ######################################
+ENV PIP_DISABLE_PIP_VERSION_CHECK=1
+RUN pip install setuptools==33.1.1
+
+#python2.7
+RUN pip install \
+    scipy==0.16 \ 
+    Pillow==6.2.1
 
 ##################################### setting #####################################
 
